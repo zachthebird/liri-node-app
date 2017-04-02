@@ -1,0 +1,13 @@
+var Programmer = function(name, jobTitle, age, favProgLang){
+	this.name: name,
+	this.jobTitle: jobTitle,
+	this.age: age,
+	this.favProgLang: favProgLang
+	this.print: function(){
+		console.log(this);
+	}
+};
+
+var Doug = new Programmer('Doug', 'Software Guru', '28', 'JavaScript');
+
+Doug.print();
